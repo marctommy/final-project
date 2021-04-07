@@ -5,30 +5,383 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Local Awesome Daddies</title>
-<style>
-        </style>
-        <link rel="stylesheet" href="final-project.css">
-        </head>
-    <body>
+    <style>
+
+@media only screen and (max-width: 580px)
+
+{
+.main-flex{flex-direction: column;}    
+}
+
+body{
+    background: rgba(199, 199, 199, 0.342);    
+}
+    ul{list-style-type: none;}
+ul li{
+    display: inline-block;
+    margin: 0px 50px;   
+}
+ul li a{
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #4f5661;
+    font-size: 60px;
     
-        <div class="section-1">
-<div class="navigation"></div>
-<ul>
-    <li>SIGN UP</li>
-    <li>NEWS</li>
-    <li>ABOUT US</li>
-</ul>
+}
+ul li a:hover{
+    color: #a4b8fd;
+
+}
+
+.section-1{
+    text-align: center;
+}
 
 
+
+
+.main-flex{
+    display: flex;
+    align-items: center;
+}
+
+.left-flex{
+text-align: right;
+}
+
+.right-flex li{
+    border: 2px solid black;
+    border-radius: 60px;
+    padding: 10px;
+}
+.right-flex li:hover{
+    padding: 20px;
+}
+
+.side-navigation li{
+font-size: 60px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.side-navigation li:hover{
+    color: blue;
+}
+
+*{margin:0;padding:0;}
+.wrap{width:100%;}
+.gradient-text{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, sans-serif;
+  background: linear-gradient(to right, rgb(20, 220, 30),pink,rgb(0, 119, 255));
+  background-size: 200% 200%;
+  animation: rainbow 2s ease-in-out infinite;
+  background-clip: text;
+  -webkit-background-clip:text;
+  color:rgba(0,0,0,1);
+  font-size:10rem;
+  width:80vw;
+  margin: 0px auto;
+  margin-top: -180px;
+  display:block;
+  text-align:center;
+  transition: color .2s ease-in-out;
+  font-weight:900;
+}
+.gradient-text:hover{
+  color:rgba(0,0,0,0);
+}
+@keyframes rainbow { 
+  0%{background-position:left}
+  50%{background-position:right}
+  100%{background-position:left}
+}
+
+.header-section{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 150px;
+}
+.buttons{
+font-size: 60px;
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 70px;
+}
+
+.buttons a{
+    margin: 0px 70px;
+    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    color: #4f5661;
+    background-color: #56c3c6;
+    border: 4px solid #636363;
+    padding: 20px; 
+    border-radius: 60px;
+
+}
+.buttons a:hover{
+    color: #56c3c6;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #ffffff;
+}
+   
+.section-5{
+    background-color: #f0f3f2;
+    display: flex;
+    margin: 50px auto;
+}
+
+.left-side5, .right-side5{
+    flex:1; text-align: center; width: 150px;
+}
+.left-side5{
+    padding: 50px;
+    margin: 10px;
+
+}
+.right-side5{
+    align-items: center;
+    padding: 50px;
+    margin: 10px;
+}
+
+.section-6{
+    background-color: #fcfbfb;
+    display: flex;
+    align-items: center ;
+    margin: 70px auto;
+    padding: 70px;
+}
+
+.activity-hd{
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: underline;
+}
+.activity-info{
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 25px;
+    text-align: center;
+}
+
+.header-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.left-side6, .right-side6{
+    flex: 1;
+}
+.left-side6 p{
+    text-align: center;
+}
+
+.section-7{
+    background-color: #1db0ea;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left-side7{
+    text-align: center;
+    flex: 1;
+}
+.right-side7{
+    text-align: center;
+    flex: 1;
+}
+.section-8{
+    display: flex;
+    padding: 70px;
+    justify-content:center;
+    align-items: center;
+}
+
+.left-side8{
+    width: 300px;
+}
+
+.section-8{
+    display: flex;
+    background: #e7b5f1;
+
+}
+.right-image8{
+    flex: 1;
+}
+.right-image8 img{
+    height: 400px;
+    padding: 40px;
+}
+.left-text8{
+    flex: 2;
+    justify-content: center;
+    text-align: center;
+}
+
+.activity-info a{
+    text-decoration: none;
+    border-radius: 60px;
+    color: black;
+    background-color:#f85c5188;
+    border: 2px solid #f85d51;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+.activity-info a:hover{
+    background-color: white;
+    color: black;
+}
+
+.profile-9{
+    display: flex;
+    background-color: #26b488;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-image9{
+    flex: 1;
+}
+.right-text9{
+    flex: 1;
+    text-align: center;
+}
+
+
+.Social-Media{
+   text-align: center;
+
+}
+.Social-Media a{
+    padding: 20px;
+    text-decoration: none;
+    color: cornflowerblue;
+}
+.Social-media-links{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 36px;
+    text-decoration: none;
+}
+
+h5{
+    text-transform: uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+    text-align: center;
+    border: cornflowerblue;
+    padding: 40px;
+}
+
+
+.Social-Media ul a:hover{
+    color: red;
+}
+
+       </style> 
+        </head>
+
+
+    <body>
+        <!-- Header -->
+    <div class="section-1">
+    <ul class="navigation">
+       
+    <li><a href="https://www.google.com">SIGN UP</a></li>
+    <li><a href="https://www.google.com">NEWS</a></li>
+    <li><a href="https://www.google.com">ABOUT US</a></li></ul></div>
+    
+    <!-- Main Cover -->
+    <div class="mainbackground">
+    <div class="main-flex">
+    <div class="left-flex">  
+    <img src="logo_local_awesome_daddies.png" alt="LOGO"></div>
+
+    <div class="right-flex">
+    <ul class="side-navigation">
+    <li><a href="#" target="_blank">Register</a></li>
+    <li><a href="#">Log In</a> </div></div> </div>
+
+    <!-- Website Title-->
+    <div class="wrap">
+    <h1 class="gradient-text">Local Awesome Daddies</h1></div>
+    <div class="header-section">
+    <h2>*The first social activity planner for real fathers and their friends!</h2></div>
+
+
+    <!-- Buttons-->
+    <div class="buttons">
+    <div class="left-button">
+    <a href="https//:www.google.com">Search Activities</a></div>
+    <div class="right-button">
+    <a href="htttps://www.google.com">Create Activities</a></div></div>
+
+    <!-- Activities-->
+    <!-- Running-->
+    <div class="section-5">
+    <div class="left-side5">
+    <img src="Sport.gif" alt="Running" width="600px"></div>
+    
+    <div class="right-side5">
+    <p class="activity-hd">Running</p>
+    <p class="activity-info"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam iure officiis, veniam inventore voluptate nihil. Ipsam dolorem illo dicta quidem.</p></div></div>
+       
+    <!--Swimming-->
+    <div class="section-6">
+    <div class="left-side6">
+    <p class="activity-hd">Swimming</p>
+    <p class="activity-info">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero temporibus rem eum eos nulla reiciendis nostrum dolorum.</p></div>
+
+    <div class="right-side6">
+    <img src="swimming.gif" alt="Swimming"></div></div>
+
+        
+    <!--CO Working-->
+    <div class="section-7">
+    <div class="left-side7">
+    <img src="join.gif" alt="CoWorking"></div>
+    <div class="right-side7">
+    <p class="activity-hd">Co-Working</p>
+    <p class="activity-info">Eaque officia, minus hic voluptas impedit pariatur quibusdam molestiae, nisi totam doloremque eos esse rerum!</p></div></div>
+<br><br><br><br>
+    <!-- Social Events-->
+    <div class="section-8">
+   
+                <div class="left-text8">
+                <p class="activity-hd">Social Events</p>
+                <p class="activity-info">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem. Architecto quam ipsa, accusamus ut laudantium eius repudiandae vel.
+                <br><br><br><a href="#">Click here to join our events!</a></p></div>
+
+        
+        <div class="right-image8">
+        <img src="socialevent.gif" alt="Social Event">
+        </div></div>
+<br><br><br><br>
+<!-- Profile -->
+                <div class="profile-9">
+                <div class="left-image9">
+                    <img src="downloadapp.gif" alt="Download App">
+                </div>
+                <div class="right-text9">
+                    <p class="activity-hd">Create a Profile Now!</p>
+                 <p class="activity-info">
+                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente quae vel, rerum voluptatum error ducimus id, sit blanditiis reiciendis.</p></div>
         </div>
-
-
-
-    <h1>
-    The first social activity planner for real fathers and their friends
-    </h1>
-    <h2>This is Local Awesome Daddies</h2>
-
+        
+        <!-- Social Media-->
+        <h5>Become a Social Butterfly</h5>
+        <div class="Social-Media">
+        <img src="social.gif" alt="Social Media">       
+        <ul class="Social-media-links">    
+        <a href="#">Facebook</a>   
+        <a href="#">Instagram</a>
+        <a href="#">Pinterest</a>
+        <a href="#">Snapchat</a>
+        <a href="#">Contact</a>
+        </ul></div>
 
 
 </body>
